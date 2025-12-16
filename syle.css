@@ -1,0 +1,14 @@
+.video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 10px; /* Spacing between videos */
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 100%;
+}
+.video-container video {
+    width: 100%; /* Makes videos fully fit their grid space */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
